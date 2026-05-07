@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+	        /* Reset default margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fullscreen body with flexbox centering */
+        body.fullscreen {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;   /* Optional light background */
+        }
+
+        /* Optional container styling */
+        .container {
+            text-align: center;
+        }
+
+        /* Title styling */
+        .title {
+            font-size: 3rem;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="fullscreen">
+    <div class="container">
+        <h1 class="title">Hello World!</h1>
+    </div>
+    <!-- Optional JavaScript (kept for reference) -->
+    <script src="js/main.js"></script>
+</body>
+</html>
